@@ -1,7 +1,10 @@
 <div class="intro-text">
-  <!--  <%= image_tag 'images/profile.jpg' %> -->
-  <h3>image</h3>
+  <%= image_tag 'images/profile.jpg', :id => 'profile'%>
   <h1>Scott Sallinen</h1>
   <p>Masters Student and Graduate Researcher</p>
+  <%= link_to 'Github', 'https://github.com/ScottSallinen', :target => 'blank' %>
+  <%= link_to 'LinkedIn', 'http://ca.linkedin.com/pub/scott-sallinen/47/66b/369', :target => 'blank' %>
+  <%= link_to 'Google+', 'https://plus.google.com/+ScottSallinen', :target => 'blank' %>
+  <%= mail_to 'scotts@ece.ubc.ca','Email' %>
 </div>
 
