@@ -11,3 +11,6 @@ gem "middleman-livereload", "~> 3.1.0"
 gem 'bourbon'
 gem 'neat'
 gem 'bitters'
+
+# Javascript
+gem 'jquery-middleman'

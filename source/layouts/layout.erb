@@ -14,6 +14,9 @@
   </head>
   
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <div id="main" role="main">
+      <%= yield %>
+      <%= partial "partials/nav" %>
+    </div>
   </body>
 </html>
