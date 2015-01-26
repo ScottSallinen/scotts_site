@@ -1,8 +1,4 @@
 #main {
-  @include outer-container;
+    @include outer-container;
 }
-$visual-grid: true;
-$visual-grid-color: red;
-$visual-grid-index: front;
-$visual-grid-opacity: 0.1;
 
