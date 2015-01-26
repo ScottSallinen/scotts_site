@@ -5,7 +5,7 @@
   $base-link-color: $base-accent-color !default;
   $dark-gray: #333 !default;
   $base-font-color: $dark-gray !default;
-  
+
   padding: 0;
 
   h2 {
@@ -48,16 +48,8 @@
     width: $icon-bullet-size;
   }
 
-  .bullet-icon-1 {
-    background: $base-accent-color;
-  }
-
-  .bullet-icon-2 {
-    background: adjust-hue($base-accent-color, -50%);
-  }
-
-  .bullet-icon-3 {
-    background: adjust-hue($base-accent-color, -140%);
+  .bullet-icon-profile {
+    padding: 0em;
   }
 
   .bullet-content {
