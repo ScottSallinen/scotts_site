@@ -2,10 +2,6 @@
 
 @import "bourbon";
 @import "base/base";
-$visual-grid: true;
-$visual-grid-color: red;
-$visual-grid-index: front;
-$visual-grid-opacity: 0.1;
 @import "neat";
 @import "partials/layout";
 @import "partials/nav";
@@ -14,3 +10,7 @@ $visual-grid-opacity: 0.1;
 @import "partials/cv";
 @import "partials/parallax";
 @import "partials/icons";
+$visual-grid: true;
+$visual-grid-color: red;
+$visual-grid-index: front;
+$visual-grid-opacity: 0.1;
